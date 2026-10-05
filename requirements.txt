@@ -1,0 +1,6 @@
+ollama
+pyjokes
+pyttsx3
+pywhatkit
+SpeechRecognition
+wikipedia
