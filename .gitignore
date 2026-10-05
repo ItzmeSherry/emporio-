@@ -1,23 +1,46 @@
+# =========================
+# Emporio - Git Ignore
+# =========================
+
 # Python
 __pycache__/
 *.py[cod]
-*.pyo
+*$py.class
+
+# Python build / distribution
+build/
+dist/
+*.egg-info/
+.eggs/
 
 # Virtual environments
 .venv/
 venv/
 env/
+ENV/
 
-# Environment / secrets
+# Environment variables / secrets
 .env
-*.env
+.env.*
+!.env.example
 
-# Local application data
-emporio.db
-*.db-journal
+# Emporio local data
+data/*.db
+data/*.db-journal
+data/*.sqlite
+data/*.sqlite3
 
-# IDE / OS
+# IDE / editors
 .vscode/
 .idea/
+
+# Operating system files
 .DS_Store
 Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
