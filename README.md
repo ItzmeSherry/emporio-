@@ -165,7 +165,7 @@ ollama pull qwen3:4b
 Start the assistant with:
 
 ```bash
-python main.py
+python emporio_v3.py
 ```
 
 ## Project Philosophy
